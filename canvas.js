@@ -18,13 +18,11 @@ const player = new Player(0, canvas.height*0.40)
             if (player.fly()){
                 player.update('fly');
                 player.draw('fly');
-
                 } 
 
             else {
             player.update('idle');
             player.draw('idle');
-
                 } 
 
         requestAnimationFrame(animate);

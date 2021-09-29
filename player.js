@@ -165,16 +165,19 @@ class Player {
         draw(action) {    
             
             context.drawImage(
-                this.actions[action].spritesheet, 
-                this.actions[action].frame_counter*this.actions[action].spriteWidth, 
-                0, 
-                this.actions[action].spriteWidth, 
-                this.actions[action].spritesheet.height, 
-                this.x, 
-                this.y, 
-                this.imageWidth, 
+                this.actions[action].spritesheet,
+                this.actions[action].frame_counter*this.actions[action].spriteWidth,
+                0,
+                this.actions[action].spriteWidth,
+                this.actions[action].spritesheet.height,
+                this.x,
+                this.y,
+                this.imageWidth,
                 this.imageHeight
+
             )
+
+            
         }
     }
     
