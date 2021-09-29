@@ -1,9 +1,9 @@
 class Player {
     constructor(posX, posY) {
         this.spritesheet_fly = new Image();
-        this.spritesheet_fly.src = "sprites/plane/fly/spritesheet.png";
+        this.spritesheet_fly.src = "sprites/plane/Fly/spritesheet.png";
         this.spritesheet_idle = new Image();
-        this.spritesheet_idle.src = "sprites/plane/fly/spritesheet.png";
+        this.spritesheet_idle.src = "sprites/plane/Fly/spritesheet.png";
 
             this.x = posX;
             this.y = posY;
